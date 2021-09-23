@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf 8">
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'images/favicon/apple-touch-icon.png' %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'images/favicon/favicon-32x32.png' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'images/favicon/favicon-16x16.png' %}">
+    <link rel="manifest" href="{% static 'images/favicon/site.webmanifest' %}">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <title>QUIENT TRAINING-Gallery</title>
+</head>
+    <body>
+        <img class='a' src="{% static 'images/logo.jpg' %}" alt="Image Not Found"></img>
+        <h1>QUIENT TRAINING</h1>
+        <nav><a class="ab" href="{% url 'index' %}" target="_blank">Home</a></nav>
+        <h2>Gallery</h2>
+        <p>
+            
+            <img class='x' src="{% static 'images/gallery.jpg' %}" alt="Image Not Found"></img><br>
+            <img class='x' src="{% static 'images/gallery1.jpg' %}" alt="Image Not Found"></img><br>
+            <img class='x' src="{% static 'images/gallery2.jpg' %}" alt="Image Not Found"></img>
+            </p>
+            </body>
+            <footer>
+                <img  src="{% static 'images/logo.jpg' %}" alt="Image Not Found"></img>
+                <nav > <a class="ab" href="{% url 'contactus' %}" target="_blank"> &nbsp &nbsp Contact us</a> &nbsp &nbsp  &nbsp &nbsp
+                    <a  class="ab" href="{% url 'media' %}" target="_blank">Social media</a></nav>
+            </footer>
+            </html>

@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+}
+.u{
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.1%;
+}
+
+.o{
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.1%;
+}
+.z{
+    width: 180px;
+   display:block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+p,ul{
+    padding: 2%;
+    list-style-type: disc;
+   
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+h2,h3,.l{
+    color: navy;
+}
+.user, .pass{
+    text-align: left;
+}
+
+.a{
+    width: 180px;
+   
+    margin-left: auto;
+    margin-right: auto;
+    float:left;  
+}
+#j{
+    color: white;
+    background-color:navy;
+    border-radius: 50px;
+    padding: 0.5%;
+}
+.socialmedia{
+    font-weight: bolder;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;  
+}
+i{
+    margin:5px;
+}
+.insta{
+     color:#8a3ab9;
+}
+.twit{
+    color:#00acee;
+
+}
+.yt{
+    color:#c4302b
+}
+.fb{
+    color:#3b5998;
+}
+.linkd{
+    color:#0e76a8;
+}
+.tele{
+    color:#0088cc;
+
+}
+footer img{
+    
+    width:65px;
+    float:left;
+    
+}
+.whats{
+    color:#25d366;
+}
+.s{
+    color:white;
+    background-color: navy;
+    padding: 0.5%;
+    border-radius: 25px;
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.g{
+    text-decoration: none;
+}
+.inputBox{
+    
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#o{
+    color: navy;
+    text-decoration: none;
+}
+
+.ab:hover,#o:hover,.g:hover, #j:hover,.socialmedia:hover{
+    color:black;
+}
+.ab:visited, .socialmedia:visited{
+    color:grey;
+}
+textarea,select, .h,.inputBox,.g{
+   
+    width:250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5%;
+    display:block;
+    
+}
+
+
+h1{
+    
+    text-align: center;
+    padding: 2%;
+    font:italic 100 4em arial;
+    color: white;
+    background-image: linear-gradient(to right top, #1304af, #003599, #002c51, #002018, #090a09);
+}
+.x{
+    width: 500px;
+   display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h4,h2,h3{
+    padding: 1%;
+    text-align: center; 
+}
+    
+nav{
+    padding: 1%;
+   background-color:black;
+    width: 1500px;
+    text-align: left;
+    
+    
+    
+}
+
+.ab{
+    color: white;
+    text-decoration: none;
+}

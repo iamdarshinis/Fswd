@@ -1,0 +1,42 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf 8">
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'images/favicon/apple-touch-icon.png' %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'images/favicon/favicon-32x32.png' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'images/favicon/favicon-16x16.png' %}">
+    <link rel="manifest" href="{% static 'images/favicon/site.webmanifest' %}">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <title>QUIENT TRAINING-About</title>
+</head>
+    <body>
+        <img class='a' src="{% static 'images/logo.jpg' %}" alt="Image Not Found"></img>
+        <h1>QUIENT TRAINING</h1>
+        <nav><a class="ab" href="{% url 'index' %}" target="_blank">Home</a></nav>
+        <h3><b>About Us</b></h3>
+        <p>
+           <b> Quient training is an enthusiastic group intended to train students in colleges that are denied the privilege
+            of Placement training, A group of Enthusiasts now have a vision of training students that don’t have access to
+            placement training that can help them get placed, and thereby build their future.</b>
+        </p>
+       
+            <h3>Why is Placement training is important:</h3>
+            <p>
+            <b>Placement training plays a major role in shaping up the career goals of students. It is
+                the dream of every engineering student to get placed in a top organization visiting
+                their campus for recruitment. Keeping this key aspect into consideration, it is realized
+                that training is important for engineering students to enhance their employability skills
+                and achieve good placement in various Industries
+                At present, the competition for employment is increasing every day and placement has
+                become a challenging task. Training students and equipping them with life skills has
+                become an important responsibility of the institution. Along with technical expertise,
+                the development of a holistic personality is also necessary.</b>
+
+        </p>
+        <footer>
+            <img  src="{% static 'images/logo.jpg' %}" alt="Image Not Found"></img>
+            <nav id="k" ><a class="ab" href="{% url 'contactus' %}" target="_blank"> &nbsp &nbsp Contact us</a> &nbsp &nbsp  &nbsp &nbsp <a  class="ab" href="{% url 'media' %}" target="_blank">Social media</a></nav>
+        </footer>
+        </body>
+        </html>

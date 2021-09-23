@@ -1,0 +1,70 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf 8">
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'images/favicon/apple-touch-icon.png' %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'images/favicon/favicon-32x32.png' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'images/favicon/favicon-16x16.png' %}">
+    <link rel="manifest" href="{% static 'images/favicon/site.webmanifest' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <title>QUIENT TRAINING</title>
+</head>
+    <body>
+       
+        <img class='a ' src="{% static 'images/logo.jpg' %}" alt="Image Not Found"></img>
+        <h1 >QUIENT TRAINING</h1>
+        <div>
+            <nav>
+                <a class="ab" href="{% url 'index' %}" target="_blank">Home</a> &nbsp &nbsp|&nbsp &nbsp
+                <a class="ab" href="{% url 'aboutus' %}" target="_blank">About Us</a> &nbsp &nbsp|&nbsp &nbsp
+                <a class="ab" href="{% url 'testimonials' %}" target="_blank">Testimonials</a> &nbsp &nbsp|&nbsp &nbsp
+                <a class="ab" href="{% url 'gallery' %}" target="_blank">Gallery</a> &nbsp &nbsp|&nbsp &nbsp
+                <a class="ab" href="{% url 'contactus' %}" target="_blank">Contact us</a> &nbsp &nbsp  &nbsp &nbsp
+            </nav>
+        </div>
+            <h2>VISION</h2>
+            <img class='o' src="{% static 'images/gallery1.jpg' %}" alt="Image Not Found"></img><br>
+            
+            
+            <p>Quient training is an enthusiastic group intended to train students in colleges that are denied the privilege of Placement
+            training.A group of Enthusiasts now have a vision of training students that don’t have access to placement training that can
+            help them get placed, and thereby build their future.</p>
+
+            <div>
+                <br><br>
+                <h2 >Land your dream tech job with Quient</h2>
+                <h4>Training stats: 1000+ students trained across 110+ colleges</h4>
+            </div>
+            
+                
+        
+                <div>
+                        <h2>OBJECTIVES</h2>
+                        <img class='u' src="{% static 'images/gallery.jpg' %}" alt="Image Not Found"></img><br>
+                    
+                        <ul>
+                        <li>To look for 100% employment for all students.</li>
+                        <li>To recognize the core competencies of the students.</li>
+                        <li>To train the students to meet the expectations of the industry through our Career Development Programmes.</li>
+                        <li>To build confidence in students and develop the right attitude in them and enhance their communication skills.</li>
+                        </ul>
+                        <h2>TRAINING ACTIVITIES</h2>
+                        <img class=' o' src="{% static 'images/gallery2.jpg' %}" alt="Image Not Found"></img>
+                        <ul>
+                        <li>Creating awareness about “career planning" and "career mapping" among the students.</li>
+                        <li>Train the students on “Personality development".</li>
+                        <li>Organize various training programmes to train the students in the areas of Quantitative Aptitude, Logical Reasoning and Verbal reasoning through the reputed external training organizations and in-house trainers.</li>
+                        <li>Train the students through Mock Interviews to perform well in the professional interviews as per the expectations of the corporate world.</li>
+                        <li>Train the students on group discussion techniques.</li>
+                        <li>Online tests and written aptitude tests.</li>
+                        </ul>
+                </div>
+    </body>
+    <footer>
+        <img  src="{% static 'images/logo.jpg' %}" alt="Image Not Found"></img>
+        <nav > <a class="ab" href="{% url 'contactus' %}" target="_blank"> &nbsp &nbsp Contact us</a> &nbsp &nbsp  &nbsp &nbsp
+            <a  class="ab" href="{% url 'media' %}" target="_blank">Social media</a></nav>
+    </footer>
+</html>
